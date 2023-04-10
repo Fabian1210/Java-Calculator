@@ -33,4 +33,18 @@ public class CalculatorTest {
         double subNums = Calculator.subtractNums(7, 2);
         Assert.assertNotEquals(3, subNums, 0);
     }
+
+    //multiplyNums
+    @Test
+    public void multiplyNums_Test() {
+        double multiplyNums = Calculator.multiplyNums(3, 3);
+        Assert.assertEquals(9, multiplyNums, 0);
+    }
+
+    //divideNums
+    @Test
+    public void divideNums_Test() {
+        double divideNums = Calculator.divideNums(12, 2);
+        Assert.assertEquals(6, divideNums, 0);
+    }
 }
